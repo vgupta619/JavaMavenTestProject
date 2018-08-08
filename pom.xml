@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Maven_Java</groupId>
+  <artifactId>Maven_Java</artifactId>
+  <version>0.0.1-SNAPSHOT</version>D:\workspace\Maven_Java\src\main\java\simple\MainClass
+  <name>Maven_Java</name>
+  <description>Maven Project</description>
+   <repositories>
+		<repository>
+			<id>upload-repo</id>
+			<name>upload repo</name>
+			<url>file:///C:/Users/shubham/Desktop</url>
+			<releases>
+				<enabled>
+      true
+      </enabled>
+			</releases>
+		</repository>
+	</repositories>
+	<distributionManagement>
+    	<repository>
+      		<uniqueVersion>false</uniqueVersion>
+     		 <id>upload-repo</id>
+      		<name>upload repo</name>
+      		<url>file:///C:/Users/shubham/Desktop</url>
+      		<layout>default</layout>
+    	</repository>
+	</distributionManagement>
+	  <build>
+    <plugins>
+      <plugin>
+        <!-- Build an executable JAR -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/</classpathPrefix>
+              <mainClass>src.main.java.MainClass</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+</project>
