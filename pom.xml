@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Maven_Java</groupId>
   <artifactId>Maven_Java</artifactId>
-  <version>0.0.1-SNAPSHOT</version>D:\workspace\Maven_Java\src\main\java\simple\MainClass
+  <version>0.0.1-SNAPSHOT</version>
   <name>Maven_Java</name>
   <description>Maven Project</description>
    <repositories>
