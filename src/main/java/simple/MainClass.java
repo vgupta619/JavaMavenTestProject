@@ -6,8 +6,6 @@ public class MainClass {
 		System.out.println("FirstCommit");
 		// TODO Auto-generated method stub
 		System.out.println("Second Commit");
-		System.out.println("Third Commit");
-		System.out.println("Fourth Commit");
 
 	}
 
