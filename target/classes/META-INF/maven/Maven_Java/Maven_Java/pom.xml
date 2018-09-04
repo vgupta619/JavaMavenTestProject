@@ -6,7 +6,7 @@
   <name>Maven_Java</name>
   <description>Maven Project</description>
    <repositories>
-		<repository>
+		<!-- <repository>
 			<id>upload-repo</id>
 			<name>upload repo</name>
 			<url>file:///C:/Users/shubham/Desktop</url>
@@ -15,7 +15,7 @@
       true
       </enabled>
 			</releases>
-		</repository>
+		</repository> -->
 	</repositories>
 	<!-- <distributionManagement>
     	<repository>
