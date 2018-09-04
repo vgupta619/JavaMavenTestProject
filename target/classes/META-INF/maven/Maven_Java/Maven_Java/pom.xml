@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Maven_Java</groupId>
   <artifactId>Maven_Java</artifactId>
-  <version>0.0.1-SNAPSHOT</version>D:\workspace\Maven_Java\src\main\java\simple\MainClass
+  <version>0.0.1-SNAPSHOT</version>
   <name>Maven_Java</name>
   <description>Maven Project</description>
    <repositories>
@@ -17,7 +17,7 @@
 			</releases>
 		</repository>
 	</repositories>
-	<distributionManagement>
+	<!-- <distributionManagement>
     	<repository>
       		<uniqueVersion>false</uniqueVersion>
      		 <id>upload-repo</id>
@@ -25,25 +25,6 @@
       		<url>file:///C:/Users/shubham/Desktop</url>
       		<layout>default</layout>
     	</repository>
-	</distributionManagement>
-	  <build>
-    <plugins>
-      <plugin>
-        <!-- Build an executable JAR -->
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
-        <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>src.main.java.MainClass</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+	</distributionManagement> -->
   
 </project>
