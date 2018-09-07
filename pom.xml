@@ -15,7 +15,7 @@
 			</releases>
 		</repository> 
 	</repositories>
-	<distributionManagement>
+<!-- 	<distributionManagement>
     	<repository>
       		<uniqueVersion>false</uniqueVersion>
      		 <id>upload-repo</id>
@@ -23,6 +23,6 @@
       		<url>file:///C:/Users/shubham/Desktop</url>
       		<layout>default</layout>
     	</repository>
-	</distributionManagement>
+	</distributionManagement> -->
   
 </project>
