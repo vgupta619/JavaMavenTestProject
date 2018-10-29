@@ -11,6 +11,7 @@ System.out.println("Gitbash Commit testing");
 System.out.println("Gitbash Commit testing2");
 System.out.println("Gitbash Commit testing3");
 System.out.println("Gitbash Commit testing4");
+System.out.println("Gitbash Commit testing4");
 	}
 
 }
